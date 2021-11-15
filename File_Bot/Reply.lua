@@ -171,8 +171,8 @@ TextReply = 'ڪـفـو مـنڪ عمࢪيي💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == '😌' then
-TextReply = 'والمـطـلـوب شࢪايد😤💘'
+if text == 'ليث' then
+TextReply = 'مطور سورس اكس'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -266,12 +266,12 @@ TextReply = 'حـبـيبـي ولله فـداڪ عمࢪيي💘🙊'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == 'امير دليم' then
+if text == 'ليو' then
 TextReply = 'هـاذ مـطـوࢪ سـوࢪسـات💘✨'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == 'امير دليمي' then
+if text == 'ليث علاء' then
 TextReply = 'خـوش مـطوࢪ حـباب🥺💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
