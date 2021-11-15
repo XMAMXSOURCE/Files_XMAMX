@@ -126,6 +126,15 @@ TextReply = 'نـزل عيونڪ عمࢪيي😿💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'تخليني' then
+
+TextReply = 'اي بكلبي 😿💘'
+
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+
+return false
+
+end
 if text == '😒' then
 TextReply = 'شـبيڪ عمࢪيي مـنـو مـضـوجڪ😣💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
