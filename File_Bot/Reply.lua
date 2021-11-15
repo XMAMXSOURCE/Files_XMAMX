@@ -160,8 +160,8 @@ TextReply = 'ثـڪـيـل الصاڪڪ🙊💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == '🌝' then
-TextReply = 'مـنـوࢪࢪ عمࢪيي طـالع تـخـبل😻💘'
+if text == 'مبرمج السورس' then
+TextReply = '@lllEll1'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
