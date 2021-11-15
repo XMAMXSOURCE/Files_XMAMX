@@ -2,12 +2,12 @@
 BY : X
 Channel Files : https://t.me/lllEll4
 ]]
-local function keko_XMAMX(data)
+local function XMAMX(data)
     local msg = data.message_
-    redis = (loadfile "./libs/redis.lua")()
+    redis = (loadfile "./library/redis.lua")()
     database = Redis.connect('127.0.0.1', 6379)
     sudos = dofile('sudo.lua')
-    JSON = (loadfile  "./libs/dkjson.lua")()
+    JSON = (loadfile  "./library/dkjson.lua")()
     bot_id_keko = {string.match(token, "^(%d+)(:)(.*)")}
     bot_id = tonumber(bot_id_keko[1])
     local function openChat(chat_id,dl_cb)
@@ -155,7 +155,7 @@ local function keko_XMAMX(data)
 
     end
     return {
-        keko_XMAMX = keko_XMAMX,
+        XMAMX = XMAMX,
     }
     --[[
     BY :  X
